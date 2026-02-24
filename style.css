@@ -4,6 +4,19 @@
     padding-left: 50px;
 }
 
+.top-menu {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.top-menu a:hover {
+    text-decoration: underline;
+}
+
 #navbar {
     justify-content: space-between;
     align-items: center;
@@ -16,10 +29,80 @@
     
 }
 
+.menu-lateral {
+    width: 220px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #c5c5c5;
+    padding: 15px;
+}
+
+.menu-lateral h3 {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral li {
+    padding: 6px 0;
+    cursor: pointer;
+}
+
+.menu-lateral li:hover {
+    background-color: #dfe6f3;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eaecee;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+}
+
+.conteudo h2 {
+    margin-top: 0;
+}
+
 #socorro{
     margin: 0px;
     padding: 0px;
     background-color: rgb(122, 188, 247);
+}
+
+#botao{
+  background-color: #1F4FA3;   
+  color: white;                
+  padding: 12px 20px;         
+  border: none;                
+  border-radius: 25px;         
+  cursor: pointer;             
+  font-weight: bold;
+  transition: 0.3s;         
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background: #f0f0f0;
+}
+
+th, td {
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    font-size: 13px;
+    text-align: left;
 }
 
 .botao{
