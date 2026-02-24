@@ -13,10 +13,11 @@
     background-color: rgb(31, 79, 163);
     color: rgb(22, 63, 134);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 
 }
 
-body{
+#socorro{
     margin: 0px;
     padding: 0px;
     background-color: rgb(122, 188, 247);
