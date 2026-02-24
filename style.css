@@ -10,8 +10,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-color: rgb(108, 108, 231);
-    color: rgb(141, 141, 245);
+    background-color: rgb(31, 79, 163);
+    color: rgb(22, 63, 134);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -19,5 +19,16 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: aliceblue;
+    background-color: rgb(122, 188, 247);
+}
+
+#botao{
+    background-color: #1F4FA3;   
+  color: white;                
+  padding: 12px 20px;         
+  border: none;                
+  border-radius: 25px;         
+  cursor: pointer;             
+  font-weight: bold;
+  transition: 0.3s;         
 }
