@@ -1,6 +1,6 @@
 #icon {
-    height: 300px;
-    size: 200px;
+    height: 150px;
+    size: 150px;
     padding-left: 50px;
 }
 
@@ -133,7 +133,8 @@ th, td {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    text-align: flex-start;      
+    text-align: flex-start; 
+    font-size: 10px;     
 }
 
 .botao1{
@@ -145,6 +146,7 @@ th, td {
   font-size: 12px;
   cursor: pointer;
   text-align: center;
+  font-size: 10px;
 }
 .divisabota{
 display: flex;
@@ -234,5 +236,70 @@ display: flex;
     align-items: flex-start;
     padding-left: 200px;
     flex-direction: column;
+    font-size: 10px;
+}
+
+.card-mensagens {
+    background-color: #B8CBE3;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.header-mensagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-mensagens h3 {
+    margin: 0;
+    color: #1E4EA1;
+}
+
+.header-mensagens a {
+    font-size: 13px;
+    color: #1E4EA1;
+    text-decoration: none;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1.5px solid #DCE6F2;
+}
+.icone {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.azul {
+    background-color: #1E4EA1;
+}
+
+.amarelo {
+    background-color: #F4C542;
+}
+
+.vermelho {
+    background-color: #E53935;
+}
+
+.texto-msg p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.texto-msg span {
+    font-size: 12px;
+    color: #555;
 }
 
