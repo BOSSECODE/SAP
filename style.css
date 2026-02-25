@@ -188,8 +188,8 @@ display: flex;
 }
 
 
-table {
-  width: 100%;
+.tabuada {
+  width: 90%;
   border-collapse: collapse;
   margin-top: 15px;
 }
